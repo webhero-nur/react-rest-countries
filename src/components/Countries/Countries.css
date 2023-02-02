@@ -3,3 +3,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
+
+.command {
+    font-style: italic;
+    text-decoration: underline;
+    color: blue;
+    font-weight: 900;
+}

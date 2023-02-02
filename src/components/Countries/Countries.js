@@ -11,8 +11,9 @@ const Countries = () => {
     }, [])
     return (
         <div>
-            <h2>Hello From Countries.js</h2>
-            <p>Count: {countries.length}</p>
+            <h1><small>Command to build a react app for deployment: </small><span className='command'>npm run build</span></h1>
+            <br />
+            <h2>Hello From Countries.js: {countries.length}</h2>
             <div className='countries-container'>
                 {
                     countries.map(country => <Country
